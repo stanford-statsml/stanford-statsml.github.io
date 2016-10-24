@@ -8,6 +8,8 @@ advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\">John Duc
                 "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\">Nick Bambos</a>",
                 "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\">Serafim Batzoglou</a>",
                 "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\">Peter Glynn</a>",
+                "Moses Charikar": "<a href=\"https://www.cs.princeton.edu/~moses/\">Moses Charikar</a>",
+                "Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\">Chris Manning</a>",
                 }
 
 department_dict = {"cs": "<a href=\"http://www-cs.stanford.edu\">Computer Science</a>",
@@ -25,28 +27,34 @@ def RecordToLineTuple(record):
         line_1 = record[0]
         
     if record[2]:
-        line_2 = advisor_dict[record[2][0]]
-        for i in range(1, len(record[2])):
-            line_2 += ", "
-            line_2 += advisor_dict[record[2][i]]
+        line_2 = record[2]
     else:
         line_2 = ""
-            
+        
     if record[3]:
-        line_3 = department_dict[record[3][0]]
+        line_3 = advisor_dict[record[3][0]]
         for i in range(1, len(record[3])):
             line_3 += ", "
-            line_3 += department_dict[record[3][i]]
+            line_3 += advisor_dict[record[3][i]]
     else:
-        line_3 = ""    
+        line_3 = ""
+            
+    if record[4]:
+        line_4 = department_dict[record[4][0]]
+        for i in range(1, len(record[4])):
+            line_4 += ", "
+            line_4 += department_dict[record[4][i]]
+    else:
+        line_4 = ""    
     
-    return (line_1, line_2, line_3)
+    return (line_1, line_2, line_3, line_4)
     
 def PrintLineTuple(line_tuple):
     print("            <tr>")
     print("              <td>{0}</td>".format(line_tuple[0]))
     print("              <td>{0}</td>".format(line_tuple[1]))
     print("              <td>{0}</td>".format(line_tuple[2]))
+    print("              <td>{0}</td>".format(line_tuple[3]))
     print("            </tr>")
 
 postdocs = []
@@ -59,10 +67,11 @@ with open("table.txt") as f:
         name = elements[0].strip()
         webpage = elements[1].strip()
         status = elements[2].strip()
-        advisors = [a.strip() for a in elements[3].split(',')]
-        departments = [a.strip() for a in elements[4].split(',')]
+        year = elements[3].strip()
+        advisors = [a.strip() for a in elements[4].split(',')]
+        departments = [a.strip() for a in elements[5].split(',')]
         
-        record = [name, webpage, advisors, departments]
+        record = [name, webpage, year, advisors, departments]
         assert(status in ["postdoc", "phd"])
         if status == "postdoc":
             postdocs.append(record)

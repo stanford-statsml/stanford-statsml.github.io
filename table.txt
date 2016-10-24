@@ -1,24 +1,35 @@
-Steve Mussmann	http://web.stanford.edu/~mussmann/	phd	Percy Liang	cs	mussmann@stanford.edu
-Tatsu Hashimoto		postdoc	Percy Liang, John Duchi	cs, stats	thashim@stanford.edu
-Neal Jean	http://nealjean.com	phd	Stefano Ermon	ee	nealjean@stanford.edu
-Braden Hancock	https://www.linkedin.com/in/bradenhancock	phd	Chris Re	cs	bradenjh@cs.stanford.edu
-Steve Yadlowsky	http://stanford.edu/~syadlows/	phd	John Duchi, Chris Re	ee, stats	syadlows@stanford.edu
-Alex Ratner		phd	Chris Re	cs	ajratner@stanford.edu
-Paroma Varma	http://stanford.edu/~paroma	phd	Chris Re	ee	paroma@stanford.edu
-Ioannis Mitliagkas	http://mitliagkas.github.io/	postdoc	Chris Re	cs, stats	imit@stanford.edu
-Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd	Percy Liang	cs	jsteinhardt@cs.stanford.edu
-Bryan He	http://ai.stanford.edu/~bryanhe/	phd	Chris Re	cs	bryanhe@stanford.edu
-Fereshte Khani		phd	Percy Liang	cs	
-Chris De Sa	http://stanford.edu/~cdesa	phd	Kunle Olukotun, Chris Re	ee	cdesa@stanford.edu
-Pang Wei Koh	http://cs.stanford.edu/~pangwei	phd	Percy Liang	cs	pangwei@cs.stanford.edu
-Jian Zhang	http://cs.stanford.edu/people/zjian	phd	Chris Re	cs	zjian@cs.stanford.edu
-Aman Sinha	http://amansinha.org	phd	John Duchi, Nick Bambos	ee	amans@stanford.edu
-Yair Carmon		phd	John Duchi	ee	yairc@stanford.edu
-Vatsal Sharan		phd	Greg Valiant	ee	vsharan@stanford.edu
-Tim Shi	http://timshi.xyz	phd	Percy Liang	cs	tianlins@cs.stanford.edu
-Aditya Grover	http://aditya-grover.github.io	phd	Stefano Ermon	cs	adityag@cs.stanford.edu
-Robin Jia	http://stanford.edu/~robinjia/	phd	Percy Liang	cs	robinjia@stanford.edu
-Jonathan Kuck		phd	Stefano Ermon	cs	kuck@stanford.edu
-Stephen Bach	http://stephenbach.net	postdoc	Chris Re, Jure Leskovec	cs	bach@cs.stanford.edu
-Volodymyr Kuleshov	http://web.stanford.edu/~kuleshov/	phd	Serafim Batzoglou, Stefano Ermon	cs	kuleshov@cs.stanford.edu
-Hongseok Namkoong	http://web.stanford.edu/~hnamk	phd	John Duchi, Peter Glynn	mse	hnamk@stanford.edu
+Steve Mussmann	http://web.stanford.edu/~mussmann/	phd	2015	Percy Liang	cs	mussmann@stanford.edu
+Tatsu Hashimoto		postdoc	2016	Percy Liang, John Duchi	cs, stats	thashim@stanford.edu
+Neal Jean	http://nealjean.com	phd	2014	Stefano Ermon	ee	nealjean@stanford.edu
+Braden Hancock	https://www.linkedin.com/in/bradenhancock	phd	2015	Chris Re, Percy Liang	cs	bradenjh@cs.stanford.edu
+Steve Yadlowsky	http://stanford.edu/~syadlows/	phd	2015	John Duchi, Chris Re	ee, stats	syadlows@stanford.edu
+Alex Ratner		phd	2014	Chris Re	cs	ajratner@stanford.edu
+Paroma Varma	http://stanford.edu/~paroma	phd		Chris Re	ee	paroma@stanford.edu
+Ioannis Mitliagkas	http://mitliagkas.github.io/	postdoc		Chris Re	cs, stats	imit@stanford.edu
+Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd	2012	Percy Liang	cs	jsteinhardt@cs.stanford.edu
+Bryan He	http://ai.stanford.edu/~bryanhe/	phd	2015	Chris Re	cs	bryanhe@stanford.edu
+Fereshte Khani		phd	2016	Percy Liang	cs	
+Chris De Sa	http://stanford.edu/~cdesa	phd		Kunle Olukotun, Chris Re	ee	cdesa@stanford.edu
+Pang Wei Koh	http://cs.stanford.edu/~pangwei	phd	2016	Percy Liang	cs	pangwei@cs.stanford.edu
+Jian Zhang	http://cs.stanford.edu/people/zjian	phd	2015	Chris Re	cs	zjian@cs.stanford.edu
+Aman Sinha	http://amansinha.org	phd	2014	John Duchi, Nick Bambos	ee	amans@stanford.edu
+Yair Carmon		phd		John Duchi	ee	yairc@stanford.edu
+Vatsal Sharan		phd		Greg Valiant	ee	vsharan@stanford.edu
+Tim Shi	http://timshi.xyz	phd	2015	Percy Liang	cs	tianlins@cs.stanford.edu
+Aditya Grover	http://aditya-grover.github.io	phd	2015	Stefano Ermon	cs	adityag@cs.stanford.edu
+Robin Jia	http://stanford.edu/~robinjia/	phd	2014	Percy Liang	cs	robinjia@stanford.edu
+Jonathan Kuck		phd	2015	Stefano Ermon	cs	kuck@stanford.edu
+Stephen Bach	http://stephenbach.net	postdoc		Chris Re, Jure Leskovec	cs	bach@cs.stanford.edu
+Volodymyr Kuleshov	http://web.stanford.edu/~kuleshov/	phd		Serafim Batzoglou, Stefano Ermon	cs	kuleshov@cs.stanford.edu
+Hongseok Namkoong	http://web.stanford.edu/~hnamk	phd	2014	John Duchi, Peter Glynn	mse	hnamk@stanford.edu
+Madalina Fiterau	www.cs.stanford.edu/~mfiterau	postdoc		Chris Re	cs	mfiterau@cs.stanford.edu
+Kai Sheng Tai	https://kaishengtai.github.io	phd	2016	Percy Liang	cs	kst@cs.stanford.edu
+Jim Fan		phd	2016	Percy Liang	cs	jimfan@cs.stanford.edu
+Weihao Kong	http://theory.stanford.edu/~weihaokong/	phd		Greg Valiant	cs	whkong@stanford.edu
+Sida Wang	http://www.sidaw.xyz	phd	2011	Percy Liang, Chris Manning	cs	sidaw@cs.stanford.edu
+Arun Chaganty	http://arun.chagantys.org	phd	2012	Percy Liang	cs	chaganty@cs.stanford.edu
+He He	http://www.umiacs.umd.edu/~hhe/	postdoc	2016	Percy Liang	cs	
+Yuchen Zhang	https://people.eecs.berkeley.edu/~yuczhang/	postdoc	2016	Percy Liang, Moses Charikar	cs	zhangyuc@cs.stanford.edu
+Roy Frostig	http://cs.stanford.edu/~rfrostig/	phd	2012	Percy Liang	cs	rf@cs.stanford.edu
+Kelvin Guu	http://kelvinguu.com/	phd	2012	Percy Liang	stats	kguu@stanford.edu
+Yu Bai		phd	2014	John Duchi	stats	yub@stanford.edu
