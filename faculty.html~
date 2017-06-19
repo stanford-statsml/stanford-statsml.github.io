@@ -125,43 +125,55 @@
       
       <div class="row"> 
         <div id="main-content" class="col-md-3" role="main">
-          <h2 class="">Chris Re</h2>
-            <div id="hero-image">
-            <img src="./pictures/chris_re.jpg" alt="">
+          <h2 class="" align="center">Chris Re</h2>
+          <div id="hero-image" align="center">
+            <img src="./pictures/chris_re_120.jpg" alt="">
           </div>
           <div class="well">
             <h3><a href="http://www-cs.stanford.edu">Computer Science</a></h3>
             <h3><a href="http://cs.stanford.edu/people/chrismre/">Personal Webpage</a></h3>
           </div>
         </div>
+        
+	<div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center">Emma Brunskill</h2>
+          <div id="hero-image" align="center">
+            <img src="./pictures/emma_brunskill_120.jpg" alt="">
+          </div>
+          <div class="well">
+            <h3><a href="http://www-cs.stanford.edu">Computer Science</a></h3>
+            <h3><a href="http://www.cs.cmu.edu/~ebrun/">Personal Webpage</a></h3>
+          </div>
+        </div>
 
         <div id="main-content" class="col-md-3" role="main">
-          <h2 class="">Greg Valiant</h2>
-            <div id="hero-image">
-            <img src="./pictures/greg_valiant.jpg" alt="">
+          <h2 class="" align="center">Greg Valiant</h2>
+          <div id="hero-image" align="center">
+            <img src="./pictures/greg_valiant_120.jpg" alt="">
           </div>
           <div class="well">
             <h3><a href="http://www-cs.stanford.edu">Computer Science</a></h3>
             <h3><a href="http://theory.stanford.edu/~valiant/">Personal Webpage</a></h3>
           </div>
         </div>
+      </div>
 
+      <div class="row"> 
 	<div id="main-content" class="col-md-3" role="main">
-          <h2 class="">John Duchi</h2>
-            <div id="hero-image">
-            <img src="./pictures/john_duchi.jpg" alt="">
+          <h2 class="" align="center">John Duchi</h2>
+          <div id="hero-image" align="center">
+            <img src="./pictures/john_duchi_120.jpg" alt="">
           </div>
           <div class="well">
-		  <h3><a href="https://statistics.stanford.edu">Statistics</a><a href="https://ee.stanford.edu/">and Electrical Engineering</a></h3>
+		  <h3><a href="https://statistics.stanford.edu">Statistics</a> <a href="https://ee.stanford.edu/">and Electrical Engineering</a></h3>
             <h3><a href="http://stanford.edu/~jduchi/">Personal Webpage</a></h3>
           </div>
         </div>
-      </div>
-      <div class="row"> 
-        <div id="main-content" class="col-md-3" role="main">
-          <h2 class="">Percy Liang</h2>
-            <div id="hero-image">
-            <img src="./pictures/percy_liang.jpg" alt="">
+        
+	<div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center">Percy Liang</h2>
+          <div id="hero-image" align="center">
+            <img src="./pictures/percy_liang_120.jpg" alt="">
           </div>
           <div class="well">
             <h3><a href="http://www-cs.stanford.edu">Computer Science</a></h3>
@@ -170,9 +182,9 @@
         </div>
 
         <div id="main-content" class="col-md-3" role="main">
-          <h2 class="">Stefano Ermon</h2>
-            <div id="hero-image">
-            <img src="./pictures/stefano_ermon.jpg" alt="">
+          <h2 class="" align="center">Stefano Ermon</h2>
+          <div id="hero-image" align="center">
+            <img src="./pictures/stefano_ermon_120.jpg" alt="">
           </div>
           <div class="well">
             <h3><a href="http://www-cs.stanford.edu">Computer Science</a></h3>
