@@ -1,28 +1,29 @@
-advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\">John Duchi</a>",
-                "Stefano Ermon": "<a href=\"https://cs.stanford.edu/~ermon/\">Stefano Ermon</a>",
-                "Percy Liang": "<a href=\"https://cs.stanford.edu/~pliang/\">Percy Liang</a>",
-                "Chris Re": "<a href=\"http://cs.stanford.edu/people/chrismre/\">Chris Re</a>",
-                "Greg Valiant": "<a href=\"http://theory.stanford.edu/~valiant/\">Greg Valiant</a>",
-                "Kunle Olukotun": "<a href=\"http://arsenalfc.stanford.edu/kunle\">Kunle Olukotun</a>",
-                "Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\">Jure Leskovec</a>",
-                "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\">Nick Bambos</a>",
-                "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\">Serafim Batzoglou</a>",
-                "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\">Peter Glynn</a>",
-                "Moses Charikar": "<a href=\"https://www.cs.princeton.edu/~moses/\">Moses Charikar</a>",
-                "Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\">Chris Manning</a>",
+advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"text-decoration:none\">John Duchi</a>",
+                "Stefano Ermon": "<a href=\"https://cs.stanford.edu/~ermon/\" style=\"text-decoration:none\">Stefano Ermon</a>",
+                "Percy Liang": "<a href=\"https://cs.stanford.edu/~pliang/\" style=\"text-decoration:none\">Percy Liang</a>",
+                "Chris Re": "<a href=\"http://cs.stanford.edu/people/chrismre/\" style=\"text-decoration:none\">Chris Re</a>",
+                "Greg Valiant": "<a href=\"http://theory.stanford.edu/~valiant/\" style=\"text-decoration:none\">Greg Valiant</a>",
+                "Kunle Olukotun": "<a href=\"http://arsenalfc.stanford.edu/kunle\" style=\"text-decoration:none\">Kunle Olukotun</a>",
+                "Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\" style=\"text-decoration:none\">Jure Leskovec</a>",
+                "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
+                "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
+                "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
+                "Moses Charikar": "<a href=\"https://www.cs.princeton.edu/~moses/\" style=\"text-decoration:none\">Moses Charikar</a>",
+                "Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\" style=\"text-decoration:none\">Chris Manning</a>",
+                "James Zou": "<a href=\"https://profiles.stanford.edu/james-zou\" style=\"text-decoration:none\">James Zou</a>",
                 }
 
-department_dict = {"cs": "<a href=\"http://www-cs.stanford.edu\">Computer Science</a>",
-                "stats": "<a href=\"https://statistics.stanford.edu\">Statistics</a>",
-                "ee": "<a href=\"https://ee.stanford.edu/\">Electrical Engineering</a>",
-                "mse": "<a href=\"http://msande.stanford.edu/\">Management Science & Engineering</a>",
+department_dict = {"cs": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
+                "stats": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
+                "ee": "<a href=\"https://ee.stanford.edu/\" style=\"text-decoration:none\">Electrical Engineering</a>",
+                "mse": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
                 }
 
 
 def RecordToLineTuple(record):
     assert(record[0])
     if record[1]:
-        line_1 = "<a href=\"{0}\">{1}</a>".format(record[1], record[0])
+        line_1 = "<a href=\"{0}\" style=\"text-decoration:none\">{1}</a>".format(record[1], record[0])
     else:
         line_1 = record[0]
         
