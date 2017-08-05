@@ -61,7 +61,7 @@ def PrintLineTuple(line_tuple):
 postdocs = []
 phds = []
 
-with open("C:\\Users\\Stephen\\Documents\\stanford-statsml.github.io\\table.txt") as f:
+with open("table.txt") as f:
     for line in f.readlines():
         print(line)
         elements = line.split('\t')
