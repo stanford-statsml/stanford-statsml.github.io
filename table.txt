@@ -5,7 +5,7 @@ Braden Hancock	https://www.linkedin.com/in/bradenhancock	phd	2015	Chris Re, Perc
 Steve Yadlowsky	http://stanford.edu/~syadlows/	phd	2015	John Duchi	ee, stats	syadlows@stanford.edu
 Alex Ratner	https://www.linkedin.com/in/alexander-ratner-038ba239/	phd	2014	Chris Re	cs	ajratner@stanford.edu
 Paroma Varma	http://stanford.edu/~paroma	phd	2015	Chris Re	ee	paroma@stanford.edu
-Ioannis Mitliagkas	http://mitliagkas.github.io/	postdoc		Chris Re	cs, stats	imit@stanford.edu
+Ioannis Mitliagkas	http://mitliagkas.github.io/	postdoc	2015	Chris Re	cs, stats	imit@stanford.edu
 Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd	2012	Percy Liang	cs	jsteinhardt@cs.stanford.edu
 Bryan He	http://ai.stanford.edu/~bryanhe/	phd	2015	Chris Re	cs	bryanhe@stanford.edu
 Fereshte Khani	https://people.stanford.edu/fereshte/	phd	2016	Percy Liang	cs	fereshtekhani@gmail.com
@@ -23,3 +23,23 @@ Stephen Bach	http://stephenbach.net	postdoc	2015	Chris Re, Jure Leskovec	cs	bach
 Volodymyr Kuleshov	http://web.stanford.edu/~kuleshov/	phd		Serafim Batzoglou, Stefano Ermon	cs	kuleshov@cs.stanford.edu
 Hongseok Namkoong	http://web.stanford.edu/~hnamk	phd	2014	John Duchi, Peter Glynn	mse	hnamk@stanford.edu
 Madalina Fiterau	www.cs.stanford.edu/~mfiterau	postdoc	2015	Chris Re	cs	mfiterau@cs.stanford.edu
+Weihao Kong	http://theory.stanford.edu/~weihaokong/	phd	2013	Greg Valiant	cs	whkong@stanford.edu
+Sida Wang	http://www.sidaw.xyz	phd	2011	Percy Liang, Chris Manning	cs	sidaw@cs.stanford.edu
+Arun Chaganty	http://arun.chagantys.org	phd	2012	Percy Liang	cs	chaganty@cs.stanford.edu
+He He	http://www.umiacs.umd.edu/~hhe/	postdoc	2016	Percy Liang	cs	hehe@cs.stanford.edu
+Yuchen Zhang	https://people.eecs.berkeley.edu/~yuczhang/	postdoc	2016	Percy Liang, Moses Charikar	cs	zhangyuc@cs.stanford.edu
+Roy Frostig	http://cs.stanford.edu/~rfrostig/	phd	2012	Percy Liang	cs	rf@cs.stanford.edu
+Kelvin Guu	http://kelvinguu.com/	phd	2012	Percy Liang	stats	kguu@stanford.edu
+Yu Bai	http://yubai.org	phd	2014	John Duchi	stats	yub@stanford.edu
+Yang Song	https://yang-song.github.io/	phd	2016	Stefano Ermon	cs	yangsong@cs.stanford.edu
+Daniel Selsam	http://stanford.edu/~dselsam/	phd	2014	Percy Liang	cs	dselsam@stanford.edu
+Tri Dao	http://stanford.edu/~trid/	phd	2016	Chris Re, Stefano Ermon	cs	trid@stanford.edu
+Aditi Raghunathan	http://web.stanford.edu/~aditir/	phd	2016	Percy Liang	cs	aditir@stanford.edu
+Xinkun Nie	http://web.stanford.edu/~xinkun/	phd	2016	James Zou	cs	xinkun@stanford.edu
+Andrew Naber		phd	2015	John Duchi	ee	naber@stanford.edu
+Feng Ruan		phd	2014	John Duchi	stats	fengruan@stanford.edu
+Weihao Kong	http://cs.stanford.edu/~weihaokong/	phd		Greg Valiant	cs	whkong@stanford.edu
+Daniel (Zhaohan) Guo	http://www.cs.cmu.edu/~zguo/	phd	2017	Emma Brunskill	cs	zdanielg@cs.stanford.edu
+Yao Liu		phd	2017	Emma Brunskill	cs	yaoliu@stanford.edu
+Shayan Doroudi	http://www.cs.cmu.edu/~shayand/	phd	2017	Emma Brunskill	cs	shayand@cs.stanford.edu
+Christoph Dann	http://cdann.net	phd		Emma Brunskill	ml	cdann@cdann.net
