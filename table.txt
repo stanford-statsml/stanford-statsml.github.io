@@ -4,7 +4,7 @@ Neal Jean	http://nealjean.com	phd	2014	Stefano Ermon	ee	nealjean@stanford.edu
 Braden Hancock	https://www.linkedin.com/in/bradenhancock	phd	2015	Chris Re, Percy Liang	cs	bradenjh@cs.stanford.edu
 Steve Yadlowsky	http://stanford.edu/~syadlows/	phd	2015	John Duchi	ee, stats	syadlows@stanford.edu
 Alex Ratner	https://www.linkedin.com/in/alexander-ratner-038ba239/	phd	2014	Chris Re	cs	ajratner@stanford.edu
-Paroma Varma	http://stanford.edu/~paroma	phd	2015	Chris Re	ee	paroma@stanford.edu
+Paroma Varma	paroma.github.io	phd	2015	Chris Re	ee	paroma@stanford.edu
 Ioannis Mitliagkas	http://mitliagkas.github.io/	postdoc	2015	Chris Re	cs, stats	imit@stanford.edu
 Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd	2012	Percy Liang	cs	jsteinhardt@cs.stanford.edu
 Bryan He	http://ai.stanford.edu/~bryanhe/	phd	2015	Chris Re	cs	bryanhe@stanford.edu
@@ -14,13 +14,13 @@ Pang Wei Koh	http://cs.stanford.edu/~pangwei	phd	2016	Percy Liang	cs	pangwei@cs.
 Jian Zhang	http://cs.stanford.edu/people/zjian	phd	2015	Chris Re	cs	zjian@cs.stanford.edu
 Aman Sinha	http://amansinha.org	phd	2014	John Duchi, Nick Bambos	ee	amans@stanford.edu
 Yair Carmon		phd	2015	John Duchi	ee	yairc@stanford.edu
-Vatsal Sharan	https://www.linkedin.com/in/vatsalsharan/	phd		Greg Valiant	ee	vsharan@stanford.edu
+Vatsal Sharan	http://web.stanford.edu/~vsharan/	phd	2014	Greg Valiant	ee	vsharan@stanford.edu
 Tim Shi	http://timshi.xyz	phd	2015	Percy Liang	cs	tianlins@cs.stanford.edu
 Aditya Grover	http://aditya-grover.github.io	phd	2015	Stefano Ermon	cs	adityag@cs.stanford.edu
 Robin Jia	http://stanford.edu/~robinjia/	phd	2014	Percy Liang	cs	robinjia@stanford.edu
 Jonathan Kuck		phd	2015	Stefano Ermon	cs	kuck@stanford.edu
 Stephen Bach	http://stephenbach.net	postdoc	2015	Chris Re, Jure Leskovec	cs	bach@cs.stanford.edu
-Volodymyr Kuleshov	http://web.stanford.edu/~kuleshov/	phd		Serafim Batzoglou, Stefano Ermon	cs	kuleshov@cs.stanford.edu
+Volodymyr Kuleshov	http://web.stanford.edu/~kuleshov/	phd	2011	Serafim Batzoglou, Stefano Ermon	cs	kuleshov@cs.stanford.edu
 Hongseok Namkoong	http://web.stanford.edu/~hnamk	phd	2014	John Duchi, Peter Glynn	mse	hnamk@stanford.edu
 Madalina Fiterau	www.cs.stanford.edu/~mfiterau	postdoc	2015	Chris Re	cs	mfiterau@cs.stanford.edu
 Weihao Kong	http://theory.stanford.edu/~weihaokong/	phd	2013	Greg Valiant	cs	whkong@stanford.edu
@@ -38,8 +38,14 @@ Aditi Raghunathan	http://web.stanford.edu/~aditir/	phd	2016	Percy Liang	cs	aditi
 Xinkun Nie	http://web.stanford.edu/~xinkun/	phd	2016	James Zou	cs	xinkun@stanford.edu
 Andrew Naber		phd	2015	John Duchi	ee	naber@stanford.edu
 Feng Ruan		phd	2014	John Duchi	stats	fengruan@stanford.edu
-Weihao Kong	http://cs.stanford.edu/~weihaokong/	phd		Greg Valiant	cs	whkong@stanford.edu
 Daniel (Zhaohan) Guo	http://www.cs.cmu.edu/~zguo/	phd	2017	Emma Brunskill	cs	zdanielg@cs.stanford.edu
 Yao Liu		phd	2017	Emma Brunskill	cs	yaoliu@stanford.edu
 Shayan Doroudi	http://www.cs.cmu.edu/~shayand/	phd	2017	Emma Brunskill	cs	shayand@cs.stanford.edu
 Christoph Dann	http://cdann.net	phd		Emma Brunskill	ml	cdann@cdann.net
+Amirata Ghorbani		phd	2016	James Zou	ee	amiratag@stanford.edu
+Virginia Smith	www.cs.berkeley.edu/~vsmith	postdoc	2017	Chris Re	cs	smithv@stanford.edu
+Ruishan Liu	http://web.stanford.edu/~ruishan/	phd	2016	James Zou	ee	ruishan@stanford.edu
+Jiaming Song	http://tsong.me	phd	2016	Stefano Ermon	cs	tsong@cs.stanford.edu
+Shengjia Zhao	http://szhao.me	phd	2016	Stefano Ermon	cs	sjzhao@cs.stanford.edu
+Abubakar Abid	abubakarabid.com	phd	2016	James Zou	ee	a12d@stanford.edu
+Neha Gupta		phd		Moses Charikar	cs	nehgupta@stanford.edu
