@@ -62,6 +62,7 @@ def PrintLineTuple(line_tuple):
 
 postdocs = []
 phds = []
+alums = []
 
 with open("table.txt") as f:
     for line in f.readlines():
@@ -75,14 +76,17 @@ with open("table.txt") as f:
         departments = [a.strip() for a in elements[5].split(',')]
         
         record = [name, webpage, year, advisors, departments]
-        assert(status in ["postdoc", "phd"])
+        assert(status in ["postdoc", "phd", "alum"])
         if status == "postdoc":
             postdocs.append(record)
-        else:
+        elif status == "phd":
             phds.append(record)
+        else:
+            alums.append(record)
         
 postdocs.sort()
 phds.sort()
+alums.sort()
 
 print("POSTDOCS")
 print("")
@@ -95,4 +99,10 @@ print("PHDS")
 print("")
 for record in phds:
     PrintLineTuple(RecordToLineTuple(record))
-
+print("")
+print("")
+print("")
+print("ALUMS")
+print("")
+for record in alums:
+    PrintLineTuple(RecordToLineTuple(record))
