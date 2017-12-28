@@ -52,13 +52,16 @@ def RecordToLineTuple(record):
     
     return (line_1, line_2, line_3, line_4)
     
-def PrintLineTuple(line_tuple):
-    print("            <tr>")
-    print("              <td>{0}</td>".format(line_tuple[0]))
-    print("              <td>{0}</td>".format(line_tuple[1]))
-    print("              <td>{0}</td>".format(line_tuple[2]))
-    print("              <td>{0}</td>".format(line_tuple[3]))
-    print("            </tr>")
+def LineTupleToString(line_tuple):
+    string = ""
+    string += "<tr>\n"
+    string += "   <td>{0}</td>\n".format(line_tuple[0])
+    string += "   <td>{0}</td>\n".format(line_tuple[1])
+    string += "   <td>{0}</td>\n".format(line_tuple[2])
+    string += "   <td>{0}</td>\n".format(line_tuple[3])
+    string += "</tr>\n"
+
+    return string
 
 postdocs = []
 phds = []
@@ -88,21 +91,17 @@ postdocs.sort()
 phds.sort()
 alums.sort()
 
-print("POSTDOCS")
-print("")
-for record in postdocs:
-    PrintLineTuple(RecordToLineTuple(record))
-print("")
-print("")
-print("")
-print("PHDS")
-print("")
-for record in phds:
-    PrintLineTuple(RecordToLineTuple(record))
-print("")
-print("")
-print("")
-print("ALUMS")
-print("")
-for record in alums:
-    PrintLineTuple(RecordToLineTuple(record))
+with open('students_template.html','r') as f1:
+    with open('students.html','w') as f2:
+        for line in f1.readlines():
+            if line=='<!--POSTDOC-->\n':
+                for record in postdocs:
+                    f2.write(LineTupleToString(RecordToLineTuple(record)))               
+            elif line=='<!--PHD-->\n':
+                for record in phds:
+                    f2.write(LineTupleToString(RecordToLineTuple(record)))
+            elif line=='<!--ALUM-->\n':
+                for record in alums:
+                    f2.write(LineTupleToString(RecordToLineTuple(record)))
+            else:
+                f2.write(line)
