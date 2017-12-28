@@ -3,14 +3,14 @@ advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"
                 "Percy Liang": "<a href=\"https://cs.stanford.edu/~pliang/\" style=\"text-decoration:none\">Percy Liang</a>",
                 "Chris Re": "<a href=\"http://cs.stanford.edu/people/chrismre/\" style=\"text-decoration:none\">Chris Re</a>",
                 "Greg Valiant": "<a href=\"http://theory.stanford.edu/~valiant/\" style=\"text-decoration:none\">Greg Valiant</a>",
-                "Kunle Olukotun": "<a href=\"http://arsenalfc.stanford.edu/kunle\" style=\"text-decoration:none\">Kunle Olukotun</a>",
-                "Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\" style=\"text-decoration:none\">Jure Leskovec</a>",
-                "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
-                "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
-                "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
-                "Moses Charikar": "<a href=\"https://www.cs.princeton.edu/~moses/\" style=\"text-decoration:none\">Moses Charikar</a>",
-                "Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\" style=\"text-decoration:none\">Chris Manning</a>",
-                "James Zou": "<a href=\"https://profiles.stanford.edu/james-zou\" style=\"text-decoration:none\">James Zou</a>",
+                #"Kunle Olukotun": "<a href=\"http://arsenalfc.stanford.edu/kunle\" style=\"text-decoration:none\">Kunle Olukotun</a>",
+                #"Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\" style=\"text-decoration:none\">Jure Leskovec</a>",
+                #"Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
+                #"Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
+                #"Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
+                #"Moses Charikar": "<a href=\"https://www.cs.princeton.edu/~moses/\" style=\"text-decoration:none\">Moses Charikar</a>",
+                #"Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\" style=\"text-decoration:none\">Chris Manning</a>",
+                #"James Zou": "<a href=\"https://profiles.stanford.edu/james-zou\" style=\"text-decoration:none\">James Zou</a>",
                 "Emma Brunskill": "<a href=\"http://www.cs.cmu.edu/~ebrun/\" style=\"text-decoration:none\">Emma Brunskill</a>",
                 }
 
@@ -21,6 +21,7 @@ department_dict = {"cs": "<a href=\"http://www-cs.stanford.edu\" style=\"text-de
                 "ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
                 }
 
+core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill"]
 
 def RecordToLineTuple(record):
     assert(record[0])
@@ -35,14 +36,17 @@ def RecordToLineTuple(record):
         line_2 = ""
         
     if record[3]:
-        line_3 = advisor_dict[record[3][0]]
-        for i in range(1, len(record[3])):
-            line_3 += ", "
-            line_3 += advisor_dict[record[3][i]]
+        line_3 = ""
+        for i in range(len(record[3])):
+            if record[3][i] in advisor_dict:
+                line_3 += ", "
+                line_3 += advisor_dict[record[3][i]]
+        line_3 = line_3[2:] #remove initial comma
     else:
         line_3 = ""
             
-    if record[4]:
+    if False:
+    #if record[4]:
         line_4 = department_dict[record[4][0]]
         for i in range(1, len(record[4])):
             line_4 += ", "
@@ -69,7 +73,7 @@ alums = []
 
 with open("table.txt") as f:
     for line in f.readlines():
-        print(line)
+        #print(line)
         elements = line.split('\t')
         name = elements[0].strip()
         webpage = elements[1].strip()
@@ -79,13 +83,14 @@ with open("table.txt") as f:
         departments = [a.strip() for a in elements[5].split(',')]
         
         record = [name, webpage, year, advisors, departments]
-        assert(status in ["postdoc", "phd", "alum"])
-        if status == "postdoc":
-            postdocs.append(record)
-        elif status == "phd":
-            phds.append(record)
-        else:
-            alums.append(record)
+        if len([cf for cf in core_faculty if cf in advisors]) > 0: 
+            if "alum" in status:
+                alums.append(record)
+            elif "phd" in status:
+                phds.append(record)
+            elif "postdoc" in status:
+                postdocs.append(record)
+
         
 postdocs.sort()
 phds.sort()
@@ -94,13 +99,13 @@ alums.sort()
 with open('students_template.html','r') as f1:
     with open('students.html','w') as f2:
         for line in f1.readlines():
-            if line=='<!--POSTDOC-->\n':
+            if line.strip()=='<!--POSTDOC-->':
                 for record in postdocs:
                     f2.write(LineTupleToString(RecordToLineTuple(record)))               
-            elif line=='<!--PHD-->\n':
+            elif line.strip()=='<!--PHD-->':
                 for record in phds:
                     f2.write(LineTupleToString(RecordToLineTuple(record)))
-            elif line=='<!--ALUM-->\n':
+            elif line.strip()=='<!--ALUM-->':
                 for record in alums:
                     f2.write(LineTupleToString(RecordToLineTuple(record)))
             else:
