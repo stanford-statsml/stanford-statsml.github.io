@@ -14,11 +14,11 @@ advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"
                 "Emma Brunskill": "<a href=\"http://www.cs.cmu.edu/~ebrun/\" style=\"text-decoration:none\">Emma Brunskill</a>",
                 }
 
-department_dict = {"cs": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
-                "stats": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
-                "ee": "<a href=\"https://ee.stanford.edu/\" style=\"text-decoration:none\">Electrical Engineering</a>",
-                "mse": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
-                "ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
+department_dict = {"Computer Science": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
+                "Statistics": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
+                "Electrical Engineering": "<a href=\"https://ee.stanford.edu/\" style=\"text-decoration:none\">Electrical Engineering</a>",
+                #"mse": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
+                #"ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
                 }
 
 core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill"]
@@ -38,19 +38,24 @@ def RecordToLineTuple(record):
     if record[3]:
         line_3 = ""
         for i in range(len(record[3])):
+            line_3 += ", "
             if record[3][i] in advisor_dict:
-                line_3 += ", "
                 line_3 += advisor_dict[record[3][i]]
+            else:
+                line_3 += record[3][i]
         line_3 = line_3[2:] #remove initial comma
     else:
         line_3 = ""
             
-    if False:
-    #if record[4]:
-        line_4 = department_dict[record[4][0]]
-        for i in range(1, len(record[4])):
+    if record[4]:
+        line_4 = ""
+        for i in range(len(record[4])):
             line_4 += ", "
-            line_4 += department_dict[record[4][i]]
+            if record[4][i] in department_dict:
+                line_4 += department_dict[record[4][i]]
+            else:
+                line_4 += record[4][i]
+        line_4 = line_4[2:] #remove initial comma
     else:
         line_4 = ""    
     
