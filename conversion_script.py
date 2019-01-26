@@ -12,6 +12,7 @@ advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"
                 #"Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\" style=\"text-decoration:none\">Chris Manning</a>",
                 #"James Zou": "<a href=\"https://profiles.stanford.edu/james-zou\" style=\"text-decoration:none\">James Zou</a>",
                 "Emma Brunskill": "<a href=\"http://www.cs.cmu.edu/~ebrun/\" style=\"text-decoration:none\">Emma Brunskill</a>",
+                "Tengyu Ma": "<a href=\"https://ai.stanford.edu/~tengyuma/\" style=\"text-decoration:none\">Tengyu Ma</a>",
                 }
 
 department_dict = {"Computer Science": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
@@ -21,9 +22,9 @@ department_dict = {"Computer Science": "<a href=\"http://www-cs.stanford.edu\" s
                 #"ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
                 }
 
-core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill"]
+core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill", "Tengyu Ma"]
 
-def RecordToLineTuple(record):
+def RecordToLineTuple(record): #[name, webpage, year, advisors, departments]
     assert(record[0])
     if record[1]:
         line_1 = "<a href=\"{0}\" style=\"text-decoration:none\">{1}</a>".format(record[1], record[0])
