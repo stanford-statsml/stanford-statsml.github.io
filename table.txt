@@ -1,4 +1,5 @@
 Zhiyang He	http://zhi-yang.me	coterm		Dorsa Sadigh	Computer Science
+Tengyu Ma	http://ai.stanford.edu/~tengyuma/	faculty	2018		Computer Science, Statistics
 Chris Re	https://cs.stanford.edu/people/chrismre/	faculty			Computer Science
 Emma Brunskill	https://cs.stanford.edu/people/ebrun/	faculty			Computer Science
 Greg Valiant	http://theory.stanford.edu/~valiant/	faculty			Computer Science
@@ -7,112 +8,111 @@ Omer Reingold	https://omereingold.wordpress.com/	faculty			Computer Science
 Percy Liang	https://cs.stanford.edu/~pliang/	faculty			Computer Science
 Peter Bailis	http://www.bailis.org/	faculty			Computer Science
 Stefano Ermon	https://cs.stanford.edu/~ermon/	faculty			Computer Science
-Tengyu Ma	http://ai.stanford.edu/~tengyuma/	faculty	2018		Computer Science, Statistics
 John Duchi	https://stanford.edu/~jduchi/	faculty			Electrical Engineering, Statistics
 Dorsa Sadigh	https://dorsa.fyi/	faculty			Computer Science, Electrical Engineering
 Allen Nie	http://anie.me/	masters/staff	2016	James Zou, Noah Goodman	Computer Science
 Jay Whang	http://jaywhang.com/	ms	2017	Emma Brunskill	Computer Science
 Jennifer She		ms	2018	Tengyu Ma	Computer Science
-Stephan Eismann		phd	2016	Ron Dror, Stefano Ermon	Applied Physics
-Elizabeth Chin		Phd	2017		Biomedical informatics
-Christoph Dann	http://cdann.net	phd		Emma Brunskill	CMU Machine Learning
+Arun Chaganty	http://arun.chagantys.org	phd alum	2012	Percy Liang	Computer Science
+Kelvin Guu	http://kelvinguu.com/	phd alum	2012	Percy Liang	Statistics
+Jackson Gorham		phd alum	2012	Lester Mackey	Statistics
 Hongyang Zhang	cs.stanford.edu/~hongyang/	phd	2013	Ashish Goel, Greg Valiant	Computer Science
-Abi See	http://cs.stanford.edu/people/abisee/	phd	2015	Chris Manning	Computer Science
-Dor (Drew) Arad		phd	2016	Chris Manning	Computer Science
-Peng Qi		phd	2015	Chris Manning	Computer Science
-Albert Gu		phd	2015	Chris Re	Computer Science
-Alex Ratner	https://ajratner.github.io/	phd	2014	Chris Re	Computer Science
-Braden Hancock	https://bradenhancock.com	phd	2015	Chris Re	Computer Science
-Charles Kuang	https://web.stanford.edu/~kuangz/	phd	2018	Chris Re	Computer Science
-Jian Zhang	http://cs.stanford.edu/people/zjian	phd	2015	Chris Re	Computer Science
-Tri Dao	http://stanford.edu/~trid/	phd	2016	Chris Re, Stefano Ermon	Computer Science
-Urvashi Khandelwal		phd	2015	Dan Jurafsky	Computer Science
-Daniel (Zhaohan) Guo	http://www.cs.cmu.edu/~zguo/	phd	2017	Emma Brunskill	Computer Science
-Peter Henderson	http://www.peterhenderson.co/	phd	2018	Emma Brunskill	Computer Science
-Shayan Doroudi	http://www.cs.cmu.edu/~shayand/	phd	2017	Emma Brunskill	Computer Science
-Yao Liu	web.stanford.edu/~yaoliu/	phd	2017	Emma Brunskill	Computer Science
-Jim Fan	http://jimfan.me	phd	2016	Fei-Fei Li	Computer Science
-Ranjay Krishna	http://ranjaykrishna.com	phd	2016	Fei-Fei Li, Michael Bernstein	Computer Science
-Melody Guan	https://www.linkedin.com/in/melodyguan	phd	2017	Greg Valiant	Computer Science
-Shivam Garg	https://cs.stanford.edu/~shivamg/	phd	2017	Greg Valiant	Computer Science
 Weihao Kong	http://theory.stanford.edu/~weihaokong/	phd	2013	Greg Valiant	Computer Science
-Neha Gupta		phd	2017	Greg Valiant, Moses Charikar	Computer Science
-Bryan He	http://ai.stanford.edu/~bryanhe/	phd	2015	James Zou	Computer Science
-Jiaxuan You	https://cs.stanford.edu/~jiaxuan/	phd	2017	Jure Leskovec	Computer Science
-Mo Tiwari	https://www.linkedin.com/in/motiwari/	phd	2017	Jure Leskovec	Computer Science
-Pratiksha Thaker	https://cs.stanford.edu/~prthaker/	phd	2015	Matei Zaharia	Computer Science
-Shushman Choudhury		phd		Mykel Kochenderfer	Computer Science
-Jean Betterton		phd	2017	Mykel Kochenderfer, Emma Brunskill	Computer Science
-Mike Wu	http://www.mikehwu.com/	phd	2017	Noah Goodman	Computer Science
-Michael P Kim	http://cs.stanford.edu/~mpkim	phd	2015	Omer Reingold	Computer Science
-Aditi Raghunathan	http://web.stanford.edu/~aditir/	phd	2016	Percy Liang	Computer Science
-Arun Chaganty	http://arun.chagantys.org	phd	2012	Percy Liang	Computer Science
-Fereshte Khani	https://people.stanford.edu/fereshte/	phd	2016	Percy Liang	Computer Science
-Mina Lee	https://minalee.info	phd	2017	Percy Liang	Computer Science
-Pang Wei Koh	http://cs.stanford.edu/~pangwei	phd	2016	Percy Liang	Computer Science
+Jessy Hwang		phd	2013	Lester Mackey, Art Owen	Statistics
+Alex Ratner	https://ajratner.github.io/	phd	2014	Chris Re	Computer Science
 Robin Jia	http://stanford.edu/~robinjia/	phd	2014	Percy Liang	Computer Science
-Steve Mussmann	http://web.stanford.edu/~mussmann/	phd	2015	Percy Liang	Computer Science
-Tim Shi	http://timshi.ai	phd	2015	Percy Liang	Computer Science
 Daniel Selsam	http://stanford.edu/~dselsam/	phd	2014	Percy Liang, David Dill	Computer Science
-Edward Gan		phd		Peter Bailis	Computer Science
-Kai Sheng Tai	http://kaishengtai.github.io	phd	2016	Peter Bailis, Greg Valiant	Computer Science
 Tum Chaturapruek	cs.stanford.edu/~sorathan	phd	2014	Ramesh Johari, John Mitchell	Computer Science
-Xinkun Nie	http://web.stanford.edu/~xinkun/	phd	2016	Stefan Wager	Computer Science
-Aditya Grover	http://aditya-grover.github.io	phd	2015	Stefano Ermon	Computer Science
-Jiaming Song	http://tsong.me	phd	2016	Stefano Ermon	Computer Science
-Jonathan Kuck		phd	2015	Stefano Ermon	Computer Science
-Kristy Choi	http://kristychoi.com	phd	2017	Stefano Ermon	Computer Science
-Rui Shu	http://ruishu.io	phd	2017	Stefano Ermon	Computer Science
-Shengjia Zhao	http://szhao.me	phd	2016	Stefano Ermon	Computer Science
-Yang Song	https://yang-song.github.io/	phd	2016	Stefano Ermon	Computer Science
-Ray Li		phd	2018		Computer Science
-Colin Wei		phd	2017	Tengyu Ma	Computer Science
-vaggos chatziafratis	https://cs.stanford.edu/~vaggos/	phd	2015	Tim Roughgarden/Moses Charikar	Computer Science
-Annie Marsden		phd	2017		Computer Science
-Brian Axelrod		phd	2017		Computer Science
-Hilal Asi		phd	2017	John, Tsachy	Electrical Engineering
-Beliz Gunel		phd	2018	Chris Re	Electrical Engineering
-Paroma Varma	paroma.github.io	phd	2015	Chris Re	Electrical Engineering
-Tong Mu		phd	2016	Emma Brunskill	Electrical Engineering
 Vatsal Sharan	http://web.stanford.edu/~vsharan/	phd	2014	Greg Valiant	Electrical Engineering
-Abubakar Abid	abubakarabid.com	phd	2016	James Zou	Electrical Engineering
-Amirata Ghorbani	web.stanford.edu/~amiratag	phd	2016	James Zou	Electrical Engineering
 Aman Sinha	http://amansinha.org	phd	2014	John Duchi	Electrical Engineering
-Andrew Naber		phd	2015	John Duchi	Electrical Engineering
-Yair Carmon	https://web.stanford.edu/~yairc/	phd	2015	John Duchi	Electrical Engineering
 Neal Jean	http://nealjean.com	phd	2014	Stefano Ermon	Electrical Engineering
-Pulkit Tandon		phd	2017		Electrical Engineering
-Steve Yadlowsky	http://stanford.edu/~syadlows/	phd	2015	John Duchi	Electrical Engineering, Statistics
-Nimit Sohoni	https://web.stanford.edu/~nims/	phd	2016	Chris Re	ICME
-Ramtin Keramati	http://rkeramati.github.io	phd	2017	Emma Brunskill	ICME
-Andrea Zanette		phd	2017	Emma Brunskill, Mykel Kochenderfer	ICME
-Casey Chu		phd	2017	Stefano Ermon	ICME
 Hongseok Namkoong	http://web.stanford.edu/~hnamk	phd	2014	John Duchi, Peter Glynn	Management Science & Engineering
 Oliver Hinder	https://stanford.edu/~ohinder/	phd	2014	Yinyu Ye	Management Science and Engineering
 Qingyun Sun	http://web.stanford.edu/~qysun/	phd	2014	Stephen Boyd, Dave Donoho	Mathematics
-Carrie Wu		phd		Moses Charikar	MS&E
 Feng Ruan		phd	2014	John Duchi	Statistics
 Yu Bai	http://yubai.org	phd	2014	John Duchi	Statistics
-Jessy Hwang		phd	2013	Lester Mackey, Art Owen	Statistics
-Kelvin Guu	http://kelvinguu.com/	phd	2012	Percy Liang	Statistics
-Daniel Kang	https://ddkang.github.io	phd		Peter Bailis	
+Abi See	http://cs.stanford.edu/people/abisee/	phd	2015	Chris Manning	Computer Science
+Peng Qi		phd	2015	Chris Manning	Computer Science
+Albert Gu		phd	2015	Chris Re	Computer Science
+Braden Hancock	https://bradenhancock.com	phd	2015	Chris Re	Computer Science
+Jian Zhang	http://cs.stanford.edu/people/zjian	phd	2015	Chris Re	Computer Science
+Urvashi Khandelwal		phd	2015	Dan Jurafsky	Computer Science
+Bryan He	http://ai.stanford.edu/~bryanhe/	phd	2015	James Zou	Computer Science
+Pratiksha Thaker	https://cs.stanford.edu/~prthaker/	phd	2015	Matei Zaharia	Computer Science
+Michael P Kim	http://cs.stanford.edu/~mpkim	phd	2015	Omer Reingold	Computer Science
+Steve Mussmann	http://web.stanford.edu/~mussmann/	phd	2015	Percy Liang	Computer Science
+Tim Shi	http://timshi.ai	phd	2015	Percy Liang	Computer Science
+Aditya Grover	http://aditya-grover.github.io	phd	2015	Stefano Ermon	Computer Science
+Jonathan Kuck		phd	2015	Stefano Ermon	Computer Science
+vaggos chatziafratis	https://cs.stanford.edu/~vaggos/	phd	2015	Tim Roughgarden/Moses Charikar	Computer Science
+Paroma Varma	paroma.github.io	phd	2015	Chris Re	Electrical Engineering
+Andrew Naber		phd	2015	John Duchi	Electrical Engineering
+Yair Carmon	https://web.stanford.edu/~yairc/	phd	2015	John Duchi	Electrical Engineering
+Steve Yadlowsky	http://stanford.edu/~syadlows/	phd	2015	John Duchi	Electrical Engineering, Statistics
+Stephan Eismann		phd	2016	Ron Dror, Stefano Ermon	Applied Physics
+Dor (Drew) Arad		phd	2016	Chris Manning	Computer Science
+Tri Dao	http://stanford.edu/~trid/	phd	2016	Chris Re, Stefano Ermon	Computer Science
+Jim Fan	http://jimfan.me	phd	2016	Fei-Fei Li	Computer Science
+Ranjay Krishna	http://ranjaykrishna.com	phd	2016	Fei-Fei Li, Michael Bernstein	Computer Science
+Aditi Raghunathan	http://web.stanford.edu/~aditir/	phd	2016	Percy Liang	Computer Science
+Fereshte Khani	https://people.stanford.edu/fereshte/	phd	2016	Percy Liang	Computer Science
+Pang Wei Koh	http://cs.stanford.edu/~pangwei	phd	2016	Percy Liang	Computer Science
+Kai Sheng Tai	http://kaishengtai.github.io	phd	2016	Peter Bailis, Greg Valiant	Computer Science
+Xinkun Nie	http://web.stanford.edu/~xinkun/	phd	2016	Stefan Wager	Computer Science
+Jiaming Song	http://tsong.me	phd	2016	Stefano Ermon	Computer Science
+Shengjia Zhao	http://szhao.me	phd	2016	Stefano Ermon	Computer Science
+Yang Song	https://yang-song.github.io/	phd	2016	Stefano Ermon	Computer Science
+Tong Mu		phd	2016	Emma Brunskill	Electrical Engineering
+Abubakar Abid	abubakarabid.com	phd	2016	James Zou	Electrical Engineering
+Amirata Ghorbani	web.stanford.edu/~amiratag	phd	2016	James Zou	Electrical Engineering
+Nimit Sohoni	https://web.stanford.edu/~nims/	phd	2016	Chris Re	ICME
 Ruishan Liu	http://web.stanford.edu/~ruishan/	phd	2016	James Zou	Electrical Engineering
-Jackson Gorham		phd	2012	Lester Mackey	Statistics
+Elizabeth Chin		Phd	2017		Biomedical informatics
+Daniel (Zhaohan) Guo	http://www.cs.cmu.edu/~zguo/	phd	2017	Emma Brunskill	Computer Science
+Shayan Doroudi	http://www.cs.cmu.edu/~shayand/	phd	2017	Emma Brunskill	Computer Science
+Yao Liu	web.stanford.edu/~yaoliu/	phd	2017	Emma Brunskill	Computer Science
+Melody Guan	https://www.linkedin.com/in/melodyguan	phd	2017	Greg Valiant	Computer Science
+Shivam Garg	https://cs.stanford.edu/~shivamg/	phd	2017	Greg Valiant	Computer Science
+Neha Gupta		phd	2017	Greg Valiant, Moses Charikar	Computer Science
+Jiaxuan You	https://cs.stanford.edu/~jiaxuan/	phd	2017	Jure Leskovec	Computer Science
+Mo Tiwari	https://www.linkedin.com/in/motiwari/	phd	2017	Jure Leskovec	Computer Science
+Jean Betterton		phd	2017	Mykel Kochenderfer, Emma Brunskill	Computer Science
+Mike Wu	http://www.mikehwu.com/	phd	2017	Noah Goodman	Computer Science
+Mina Lee	https://minalee.info	phd	2017	Percy Liang	Computer Science
+Kristy Choi	http://kristychoi.com	phd	2017	Stefano Ermon	Computer Science
+Rui Shu	http://ruishu.io	phd	2017	Stefano Ermon	Computer Science
+Colin Wei		phd	2017	Tengyu Ma	Computer Science
+Annie Marsden		phd	2017		Computer Science
+Brian Axelrod		phd	2017		Computer Science
+Hilal Asi		phd	2017	John, Tsachy	Electrical Engineering
+Pulkit Tandon		phd	2017		Electrical Engineering
+Ramtin Keramati	http://rkeramati.github.io	phd	2017	Emma Brunskill	ICME
+Andrea Zanette		phd	2017	Emma Brunskill, Mykel Kochenderfer	ICME
+Casey Chu		phd	2017	Stefano Ermon	ICME
+Charles Kuang	https://web.stanford.edu/~kuangz/	phd	2018	Chris Re	Computer Science
+Peter Henderson	http://www.peterhenderson.co/	phd	2018	Emma Brunskill	Computer Science
+Ray Li		phd	2018		Computer Science
+Beliz Gunel		phd	2018	Chris Re	Electrical Engineering
+Christoph Dann	http://cdann.net	phd		Emma Brunskill	CMU Machine Learning
+Shushman Choudhury		phd		Mykel Kochenderfer	Computer Science
+Edward Gan		phd		Peter Bailis	Computer Science
+Carrie Wu		phd		Moses Charikar	MS&E
+Daniel Kang	https://ddkang.github.io	phd		Peter Bailis	
 Volodymyr Kuleshov	http://web.stanford.edu/~kuleshov/	phd alum	2011	Serafim Batzoglou, Stefano Ermon	Computer Science
-Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd alum	2012	Percy Liang	Computer Science
-Roy Frostig	http://cs.stanford.edu/~rfrostig/	phd alum	2012	Percy Liang	Computer Science
 Sida Wang	http://www.sidaw.xyz	phd alum	2011	Percy Liang, Chris Manning	Computer Science
 Chris De Sa	http://stanford.edu/~cdesa	phd alum	2011	Kunle Olukotun, Chris Re	Electrical Engineering
-Avner May	http://web.stanford.edu/~avnermay/	postdoc	2018	Chris Re	Computer Science
-Fred Sala	http://stanford.edu/~fredsala/	postdoc	2017	Chris Re	Computer Science
-Jared Dunnmon	https://www.linkedin.com/in/jared-dunnmon-28949715/	postdoc	2017	Chris Re	Computer Science
+Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd alum	2012	Percy Liang	Computer Science
+Roy Frostig	http://cs.stanford.edu/~rfrostig/	phd alum	2012	Percy Liang	Computer Science
 Madalina Fiterau	www.cs.stanford.edu/~mfiterau	postdoc	2015	Chris Re	Computer Science
-Virginia Smith	www.cs.berkeley.edu/~vsmith	postdoc	2017	Chris Re	Computer Science
-Jonathan Bragg	https://jonathanbragg.com	postdoc	2018	Emma Brunskill	Computer Science
-Pierre-Luc Bacon	http://pierrelucbacon.com/	postdoc	2018	Emma Brunskill	Computer Science
 He He	http://www.umiacs.umd.edu/~hhe/	postdoc	2016	Percy Liang	Computer Science
 Yuchen Zhang	https://people.eecs.berkeley.edu/~yuczhang/	postdoc	2016	Percy Liang, Moses Charikar	Computer Science
 Tatsu Hashimoto	https://thashim.github.io/	postdoc	2016	Percy Liang, John Duchi	Computer Science, Statistics
+Fred Sala	http://stanford.edu/~fredsala/	postdoc	2017	Chris Re	Computer Science
+Jared Dunnmon	https://www.linkedin.com/in/jared-dunnmon-28949715/	postdoc	2017	Chris Re	Computer Science
+Virginia Smith	www.cs.berkeley.edu/~vsmith	postdoc	2017	Chris Re	Computer Science
+Avner May	http://web.stanford.edu/~avnermay/	postdoc	2018	Chris Re	Computer Science
+Jonathan Bragg	https://jonathanbragg.com	postdoc	2018	Emma Brunskill	Computer Science
+Pierre-Luc Bacon	http://pierrelucbacon.com/	postdoc	2018	Emma Brunskill	Computer Science
 Peyton Greenside		postdoc		Emma Brunskill	
 Yuanzhi Li		postdoc		Tengyu Ma	
 Stephen Bach	http://stephenbach.net	postdoc alum	2015	Chris Re	Computer Science
@@ -134,10 +134,10 @@ Lunjia Hu	https://sites.google.com/stanford.edu/lunjia	rotation	2018	Tengyu Ma	C
 Nick Landolfi		rotation	2018	Tengyu Ma	Computer Science
 Yining Chen		rotation	2018	Tengyu Ma	Computer Science
 Tin Tin Wisniewski		staff	2018	Emma Brunskill	Computer Science
-Hugh Zhang		undergrad		Percy Liang	Computer Science
-Kai Ang		undergrad	2018	Percy Liang	Computer Science
 Megha Srivastava		undergrad	2014	Percy Liang	Computer Science
 Anna Thomas	http://web.stanford.edu/~thomasat/	undergrad	2014	Chris Re	MCS, Mathematics
+Kai Ang		undergrad	2018	Percy Liang	Computer Science
+Hugh Zhang		undergrad		Percy Liang	Computer Science
 Chen Lu		undergrad		Stefan Wager	
 Chao Sun		visiting 		Tengyu Ma	
 Kamyar Azizzadenesheli	https://sites.google.com/uci.edu/kamyar	visitor	2017	Emma Brunskill	Computer Science
