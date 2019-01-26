@@ -104,8 +104,8 @@ Chris De Sa	http://stanford.edu/~cdesa	phd alum	2011	Kunle Olukotun, Chris Re	El
 Jacob Steinhardt	http://cs.stanford.edu/~jsteinhardt/	phd alum	2012	Percy Liang	Computer Science
 Roy Frostig	http://cs.stanford.edu/~rfrostig/	phd alum	2012	Percy Liang	Computer Science
 Madalina Fiterau	www.cs.stanford.edu/~mfiterau	postdoc	2015	Chris Re	Computer Science
-He He	http://www.umiacs.umd.edu/~hhe/	postdoc	2016	Percy Liang	Computer Science
-Yuchen Zhang	https://people.eecs.berkeley.edu/~yuczhang/	postdoc	2016	Percy Liang, Moses Charikar	Computer Science
+He He	http://www.umiacs.umd.edu/~hhe/	postdoc alum	2016	Percy Liang	Computer Science
+Yuchen Zhang	https://people.eecs.berkeley.edu/~yuczhang/	postdoc alum	2016	Percy Liang, Moses Charikar	Computer Science
 Tatsu Hashimoto	https://thashim.github.io/	postdoc	2016	Percy Liang, John Duchi	Computer Science, Statistics
 Fred Sala	http://stanford.edu/~fredsala/	postdoc	2017	Chris Re	Computer Science
 Jared Dunnmon	https://www.linkedin.com/in/jared-dunnmon-28949715/	postdoc	2017	Chris Re	Computer Science
