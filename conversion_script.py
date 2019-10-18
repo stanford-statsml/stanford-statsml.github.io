@@ -13,7 +13,8 @@ advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"
                 #"James Zou": "<a href=\"https://profiles.stanford.edu/james-zou\" style=\"text-decoration:none\">James Zou</a>",
                 "Emma Brunskill": "<a href=\"http://www.cs.cmu.edu/~ebrun/\" style=\"text-decoration:none\">Emma Brunskill</a>",
                 "Tengyu Ma": "<a href=\"https://ai.stanford.edu/~tengyuma/\" style=\"text-decoration:none\">Tengyu Ma</a>",
-                }
+                "Chelsea Finn": "<a href=\"http://ai.stanford.edu/~cbfinn/\" style=\"text-decoration:none\">Chelsea Finn</a>",
+		}
 
 department_dict = {"Computer Science": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
                 "Statistics": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
@@ -22,7 +23,7 @@ department_dict = {"Computer Science": "<a href=\"http://www-cs.stanford.edu\" s
                 #"ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
                 }
 
-core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill", "Tengyu Ma"]
+core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill", "Tengyu Ma", "Chelsea Finn"]
 
 def RecordToLineTuple(record): #[name, webpage, year, advisors, departments]
     assert(record[0])
@@ -86,7 +87,8 @@ with open("table.txt") as f:
         status = elements[2].strip()
         year = elements[3].strip()
         advisors = [a.strip() for a in elements[4].split(',')]
-        departments = [a.strip() for a in elements[5].split(',')]
+        sponsors = [a.strip() for a in elements[5].split(',')]
+        departments = [a.strip() for a in elements[6].split(',')]
         
         record = [name, webpage, year, advisors, departments]
         if len([cf for cf in core_faculty if cf in advisors]) > 0: 
