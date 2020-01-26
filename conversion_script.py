@@ -4,7 +4,7 @@ advisor_dict = {"John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"
                 "Chris Re": "<a href=\"http://cs.stanford.edu/people/chrismre/\" style=\"text-decoration:none\">Chris Re</a>",
                 "Greg Valiant": "<a href=\"http://theory.stanford.edu/~valiant/\" style=\"text-decoration:none\">Greg Valiant</a>",
                 #"Kunle Olukotun": "<a href=\"http://arsenalfc.stanford.edu/kunle\" style=\"text-decoration:none\">Kunle Olukotun</a>",
-                #"Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\" style=\"text-decoration:none\">Jure Leskovec</a>",
+                "Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\" style=\"text-decoration:none\">Jure Leskovec</a>",
                 #"Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
                 #"Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
                 #"Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
@@ -23,7 +23,7 @@ department_dict = {"Computer Science": "<a href=\"http://www-cs.stanford.edu\" s
                 #"ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
                 }
 
-core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill", "Tengyu Ma", "Chelsea Finn"]
+core_faculty = ["John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill", "Tengyu Ma", "Chelsea Finn", "Jure Leskovec"]
 
 def RecordToLineTuple(record): #[name, webpage, year, advisors, departments]
     assert(record[0])
