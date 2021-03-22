@@ -7,8 +7,8 @@
 <!-- Meta -->
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Site / page description">
-<meta name="author" content="Stanford Department or Group">
+<meta name="description" content="The home webpage for the Stanford Statistical Machine Learning Goup">
+<meta name="author" content="Stanford Statistical Machine Learning Group">
 <!-- These meta tags are used when someone shares a link to this page on Facebook,
      Twitter or other social media sites. All tags are optional, but including them
      and customizing the content for specific sites can help the visibility of your
@@ -38,14 +38,14 @@
 <!--[if IE 7]>
   <link rel="stylesheet" type="text/css" href="assets/cardinal/css/ie/ie7.css" />
 <![endif]-->
-<!-- JS and jQuery --> 
-<script src="./stanford_files/jquery.min.js.download"></script> 
-<script src="./stanford_files/modernizr.custom.17475.js.download"></script> 
-<script src="./stanford_files/bootstrap.min.js.download"></script> 
+<!-- JS and jQuery -->
+<script src="./stanford_files/jquery.min.js.download"></script>
+<script src="./stanford_files/modernizr.custom.17475.js.download"></script>
+<script src="./stanford_files/bootstrap.min.js.download"></script>
 
 <!--[if lt IE 9]>
   <script src="assets/cardinal/js/respond.js"></script>
-<![endif]--> 
+<![endif]-->
 
 <!-- custom JS -->
 <script src="./stanford_files/base.js.download"></script>
@@ -54,23 +54,23 @@
 
 <body class="home"> <!-- class="home" underlines the Home link in the top nav -->
 <div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
-  <div id="su-content" style="padding-bottom: 298px;"> <!-- used to force footer to bottom of short pages --> 
-    
+  <div id="su-content" style="padding-bottom: 298px;"> <!-- used to force footer to bottom of short pages -->
+
     <!--=== Top ===-->
     <div id="top">
-      <div class="container"> 
+      <div class="container">
         <!--=== Skip links ===-->
         <div id="skip"> <a href="http://web.stanford.edu/group/webdev/cardinal/#content" onclick="$(&#39;#content&#39;).focus()">Skip to content</a> </div>
-        <!-- /Skip links --> 
+        <!-- /Skip links -->
       </div>
     </div>
-    <!--/top--> 
-    
+    <!--/top-->
+
     <!--=== Header ===-->
     <div id="header" class="clearfix" role="banner">
       <div class="container">
         <div class="row">
-          <div class="col-md-8"> 
+          <div class="col-md-8">
             <!-- Logo -->
             <div id="logo" class="clearfix"> <a href="http://www.stanford.edu/"><img class="img-responsive" src="./stanford_files/stanford-white@2x.png" alt="Stanford University"></a> </div>
             <!-- /logo -->
@@ -86,20 +86,20 @@
         </div>
       </div>
     </div>
-    
-   
+
+
     <!-- Menu -->
     <div id="mainmenu" class="clearfix" role="navigation">
       <div class="container">
-        <div class="navbar navbar-default"> 
-          
+        <div class="navbar navbar-default">
+
           <!-- main navigation -->
           <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
           <!-- /nav-collapse -->
-          
-          <div class="navbar-collapse collapse" aria-expanded="false"> 
+
+          <div class="navbar-collapse collapse" aria-expanded="false">
             <!--search box-->
-            <div id="nav-search" role="search"> 
+            <div id="nav-search" role="search">
             </div>
             <div role="navigation">
               <div id="primary-nav">
@@ -107,90 +107,151 @@
                   <li> <a href="./index.html">Home</a></li>
                   <li id="nav-home"> <a href="./faculty.html">Faculty</a> </li>
                   <li> <a href="./students.html">Students & Post-Docs</a> </li>
+                  <li> <a href="./seminar.html">Seminar</a> </li>
                 </ul>
               </div>
             </div>
           </div>
-          <!-- /nav-collapse --> 
+          <!-- /nav-collapse -->
         </div>
-        <!-- /navbar --> 
-        
+        <!-- /navbar -->
+
       </div>
-      <!-- /container --> 
+      <!-- /container -->
     </div>
-    <!-- /mainmenu --> 
-    
+    <!-- /mainmenu -->
+
     <!-- main content -->
     <div id="content" class="container" role="main" tabindex="0">
-      
-      <div class="row"> 
+
+      <div class="row">
+
         <div id="main-content" class="col-md-3" role="main">
-	  <h2 class="" align="center"><a href="http://cs.stanford.edu/people/chrismre/" style="text-decoration:none">Chris Re</a></h2>
+          <h2 class="" align="center"><a href="https://cs.stanford.edu/people/ebrun/" style="text-decoration:none">Emma Brunskill</a></h2>
           <div id="hero-image" align="center">
-		  <a href="http://cs.stanford.edu/people/chrismre/"><img src="./pictures/chris_re_120.jpg" alt=""></a>
+            <a href="https://cs.stanford.edu/people/ebrun/" style="text-decoration:none"><img src="./pictures/emma_brunskill_120.jpg" alt=""></a>
           </div>
           <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
-          <!-- <div class="well">
-            <h3><a href="http://www-cs.stanford.edu">Computer Science</a></h3>
-            <h3><a href="http://cs.stanford.edu/people/chrismre/">Personal Webpage</a></h3>
-	  </div>-->
+        </div>
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="http://stanford.edu/~jduchi/" style="text-decoration:none">John Duchi</a></h2>
+          <div id="hero-image" align="center">
+            <a href="http://stanford.edu/~jduchi/"><img src="./pictures/john_duchi_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="https://statistics.stanford.edu" style="text-decoration:none">Statistics </a><a href="https://ee.stanford.edu/" style="text-decoration:none">and Electrical Engineering</a></h5>
+        </div>
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://cs.stanford.edu/~ermon/" style="text-decoration:none">Stefano Ermon</a></h2>
+          <div id="hero-image" align="center">
+            <a href="https://cs.stanford.edu/~ermon/"><img src="./pictures/stefano_ermon_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+        </div>
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://homes.cs.washington.edu/~ebfox/" style="text-decoration:none">Emily Fox</a></h2>
+          <div id="hero-image" align="center">
+            <a href="https://homes.cs.washington.edu/~ebfox/"><img src="./pictures/emily_fox_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
         </div>
         
-	<div id="main-content" class="col-md-3" role="main">
-	  <h2 class="" align="center"><a href="http://www.cs.cmu.edu/~ebrun/" style="text-decoration:none">Emma Brunskill</a></h2>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="row">
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://homes.cs.washington.edu/~guestrin/index.html" style="text-decoration:none">Carlos Guestrin</a></h2>
           <div id="hero-image" align="center">
-		  <a href="http://www.cs.cmu.edu/~ebrun/" style="text-decoration:none"><img src="./pictures/emma_brunskill_120.jpg" alt=""></a>
+            <a href="https://homes.cs.washington.edu/~guestrin/index.html"><img src="./pictures/carlos_guestrin_120.jpg" alt=""></a>
           </div>
-	  <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+        </div>
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://thashim.github.io/" style="text-decoration:none">Tatsu Hashimoto</a></h2>
+          <div id="hero-image" align="center">
+            <a href="https://thashim.github.io/"><img src="./pictures/tatsu_hashimoto_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+        </div>
+	
+	<div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="http://ai.stanford.edu/~cbfinn/" style="text-decoration:none">Chelsea Finn</a></h2>
+          <div id="hero-image" align="center">
+            <a href="http://ai.stanford.edu/~cbfinn/"><img src="./pictures/chelsea_finn_120.png" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+        </div>
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://cs.stanford.edu/people/jure/" style="text-decoration:none">Jure Leskovec</a></h2>
+          <div id="hero-image" align="center">
+            <a href="https://cs.stanford.edu/people/jure/"><img src="./pictures/jure_leskovec_120.png" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+        </div>
+
+
+
+      </div>
+
+      <br>
+      <br>
+
+      <div class="row">
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://cs.stanford.edu/~pliang/" style="text-decoration:none">Percy Liang</a></h2>
+          <div id="hero-image" align="center">
+            <a href="https://cs.stanford.edu/~pliang/"><img src="./pictures/percy_liang_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+        </div>
+
+
+	<div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="https://ai.stanford.edu/~tengyuma/" style="text-decoration:none">Tengyu Ma</a></h2>
+          <div id="hero-image" align="center">
+            <a href="https://ai.stanford.edu/~tengyuma/"><img src="./pictures/tengyu_ma_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science </a><a href="https://statistics.stanford.edu" style="text-decoration:none">and Statistics</a></h5>
+        </div>
+
+        <div id="main-content" class="col-md-3" role="main">
+          <h2 class="" align="center"><a href="http://cs.stanford.edu/people/chrismre/" style="text-decoration:none">Chris Re</a></h2>
+          <div id="hero-image" align="center">
+            <a href="http://cs.stanford.edu/people/chrismre/"><img src="./pictures/chris_re_120.jpg" alt=""></a>
+          </div>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
         </div>
 
         <div id="main-content" class="col-md-3" role="main">
           <h2 class="" align="center"><a href="http://theory.stanford.edu/~valiant//" style="text-decoration:none">Greg Valiant</a></h2>
           <div id="hero-image" align="center">
-		  <a href="http://theory.stanford.edu/~valiant//"><img src="./pictures/greg_valiant_120.jpg" alt=""></a>
+            <a href="http://theory.stanford.edu/~valiant//"><img src="./pictures/greg_valiant_120.jpg" alt=""></a>
           </div>
-	  <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
+          <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
         </div>
+
       </div>
-      <br>
-      <br>
 
-      <div class="row"> 
-	<div id="main-content" class="col-md-3" role="main">
-          <h2 class="" align="center"><a href="http://stanford.edu/~jduchi/" style="text-decoration:none">John Duchi</a></h2>
-          <div id="hero-image" align="center">
-		  <a href="http://stanford.edu/~jduchi/"><img src="./pictures/john_duchi_120.jpg" alt=""></a>
-          </div>
-	  <h5 class="" align="center"><a href="https://statistics.stanford.edu" style="text-decoration:none">Statistics </a><a href="https://ee.stanford.edu/" style="text-decoration:none">and Electrical Engineering</a></h5>
-        </div>
-        
-	<div id="main-content" class="col-md-3" role="main">
-          <h2 class="" align="center"><a href="https://cs.stanford.edu/~pliang/" style="text-decoration:none">Percy Liang</a></h2>
-          <div id="hero-image" align="center">
-		  <a href="https://cs.stanford.edu/~pliang/"><img src="./pictures/percy_liang_120.jpg" alt=""></a>
-          </div>
-	  <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
-        </div>
-
-        <div id="main-content" class="col-md-3" role="main">
-	  <h2 class="" align="center"><a href="https://cs.stanford.edu/~ermon/" style="text-decoration:none">Stefano Ermon</a></h2>
-          <div id="hero-image" align="center">
-		  <a href="https://cs.stanford.edu/~ermon/"><img src="./pictures/stefano_ermon_120.jpg" alt=""></a>
-          </div>
-	  <h5 class="" align="center"><a href="http://www-cs.stanford.edu" style="text-decoration:none">Computer Science</a></h5>
-        </div>
-      </div>        
     </div>
-    <!-- #content--> 
-    
+    <!-- #content-->
+
   </div>
-  <!-- #su-content --> 
+  <!-- #su-content -->
 </div>
-<!-- #su-wrap --> 
+<!-- #su-wrap -->
 
 <!-- BEGIN footer -->
 <div id="footer" class="clearfix footer" role="contentinfo" style="margin-top: -298px;">
-  
+
   <!-- Global footer snippet start -->
   <div id="global-footer">
     <div class="container">
@@ -210,14 +271,14 @@
         <div class="clear"></div>
         <p class="copyright vcard col-sm-10">© <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a href="http://www.stanford.edu/group/security/dmca.html" class="su-link" data-ua-action="copyright-complaints" data-ua-label="global-footer">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" class="su-link" data-ua-action="trademark-notice" data-ua-label="global-footer">Trademark Notice</a></span></p>
       </div>
-      <!-- .row end --> 
+      <!-- .row end -->
     </div>
-    <!-- .container end --> 
+    <!-- .container end -->
   </div>
-  <!-- Global footer snippet end --> 
-  
+  <!-- Global footer snippet end -->
+
 </div>
-<!-- END footer --> 
+<!-- END footer -->
 
 
 
