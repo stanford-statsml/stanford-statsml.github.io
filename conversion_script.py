@@ -1,4 +1,5 @@
 import argparse
+import csv
 import os
 
 # @formatter:off
@@ -97,8 +98,20 @@ def main(table_path):
     phds = []
     alums = []
 
+    # Check if the file has header.
+    has_header = False
+    if table_path.endswith('.csv'):
+        with open(table_path, 'r') as csvfile:
+            sniffer = csv.Sniffer()
+            if sniffer.has_header(csvfile.read(2048)):
+                has_header = True
+
     with open(table_path, 'r') as f:
-        for line in f.readlines():
+        lines = f.readlines()
+        if has_header:
+            lines = lines[1:]
+
+        for line in lines:
             elements = line.split('\t')
             name = elements[0].strip()
             webpage = elements[1].strip()
@@ -138,9 +151,11 @@ def main(table_path):
 
 
 if __name__ == "__main__":
+    # Run this script from the root of the repo:
+    # python conversion_script.py
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '--table_path', type=str, default=os.path.join('.', 'table.txt'),
+        '--table_path', type=str, default=os.path.join('.', 'roster.csv'),
         help="Path to the table with all the students. "
              "Should be pulled from the roster website: "
              "https://docs.google.com/spreadsheets/d/1W9D5NFxOXuzpao7aB6BXTnj5uhyPAJXBj9oLkF7IAnc/edit#gid=0"
