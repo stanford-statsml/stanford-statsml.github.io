@@ -1,3 +1,6 @@
+import argparse
+import os
+
 # @formatter:off
 # TODO(lxuechen): Update urls for Emily Fox and Carlos Guestrin once their stanford websites are finalized.
 advisor_dict = {
@@ -89,12 +92,12 @@ def LineTupleToString(line_tuple):
     return string
 
 
-def main():
+def main(table_path):
     postdocs = []
     phds = []
     alums = []
 
-    with open("table.txt") as f:
+    with open(table_path, 'r') as f:
         for line in f.readlines():
             elements = line.split('\t')
             name = elements[0].strip()
@@ -135,4 +138,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--table_path', type=str, default=os.path.join('.', 'table.txt'),
+        help="Path to the table with all the students. "
+             "Should be pulled from the roster website: "
+             "https://docs.google.com/spreadsheets/d/1W9D5NFxOXuzpao7aB6BXTnj5uhyPAJXBj9oLkF7IAnc/edit#gid=0"
+    )
+    args = parser.parse_args()
+
+    main(table_path=args.table_path)
