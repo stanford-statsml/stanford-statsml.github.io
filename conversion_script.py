@@ -2,44 +2,7 @@ import argparse
 import csv
 import os
 
-# @formatter:off
-# TODO(lxuechen): Update urls for Emily Fox and Carlos Guestrin once their stanford websites are finalized.
-advisor_dict = {
-    "John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"text-decoration:none\">John Duchi</a>",
-    "Stefano Ermon": "<a href=\"https://cs.stanford.edu/~ermon/\" style=\"text-decoration:none\">Stefano Ermon</a>",
-    "Percy Liang": "<a href=\"https://cs.stanford.edu/~pliang/\" style=\"text-decoration:none\">Percy Liang</a>",
-    "Chris Re": "<a href=\"http://cs.stanford.edu/people/chrismre/\" style=\"text-decoration:none\">Chris Re</a>",
-    "Greg Valiant": "<a href=\"http://theory.stanford.edu/~valiant/\" style=\"text-decoration:none\">Greg Valiant</a>",
-    "Jure Leskovec": "<a href=\"https://cs.stanford.edu/people/jure/\" style=\"text-decoration:none\">Jure Leskovec</a>",
-    "Emma Brunskill": "<a href=\"http://www.cs.cmu.edu/~ebrun/\" style=\"text-decoration:none\">Emma Brunskill</a>",
-    "Tengyu Ma": "<a href=\"https://ai.stanford.edu/~tengyuma/\" style=\"text-decoration:none\">Tengyu Ma</a>",
-    "Chelsea Finn": "<a href=\"http://ai.stanford.edu/~cbfinn/\" style=\"text-decoration:none\">Chelsea Finn</a>",
-    "Emily Fox": "<a href=\"https://statistics2.sites.stanford.edu/people/emily-b-fox\" style=\"text-decoration:none\">Emily Fox</a>",
-    "Carlos Guestrin": "<a href=\"https://profiles.stanford.edu/carlos-guestrin\" style=\"text-decoration:none\">Carlos Guestrin</a>",
-    # "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
-    # "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
-    # "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
-    # "Moses Charikar": "<a href=\"https://www.cs.princeton.edu/~moses/\" style=\"text-decoration:none\">Moses Charikar</a>",
-    # "Chris Manning": "<a href=\"http://nlp.stanford.edu/manning/\" style=\"text-decoration:none\">Chris Manning</a>",
-    # "James Zou": "<a href=\"https://profiles.stanford.edu/james-zou\" style=\"text-decoration:none\">James Zou</a>",
-    # "Kunle Olukotun": "<a href=\"http://arsenalfc.stanford.edu/kunle\" style=\"text-decoration:none\">Kunle Olukotun</a>",
-}
-
-department_dict = {
-    "Computer Science": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
-    "Statistics": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
-    "Electrical Engineering": "<a href=\"https://ee.stanford.edu/\" style=\"text-decoration:none\">Electrical Engineering</a>",
-    # "mse": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
-    # "ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
-}
-
-# @formatter:on
-
-core_faculty = [
-    "John Duchi", "Stefano Ermon", "Percy Liang", "Chris Re", "Greg Valiant", "Emma Brunskill", "Tengyu Ma",
-    "Chelsea Finn", "Jure Leskovec",
-    "Emily Fox", "Carlos Guestrin"
-]
+from misc.common import advisor_dict, department_dict, core_faculty
 
 
 def RecordToLineTuple(record):  # [name, webpage, year, advisors, departments]
@@ -100,7 +63,7 @@ def main(table_path):
 
     # Check if the file has header.
     has_header = False
-    if table_path.endswith('.csv'):
+    if table_path.endswith('.csv') or table_path.endswith('.tsv'):
         with open(table_path, 'r') as csvfile:
             sniffer = csv.Sniffer()
             if sniffer.has_header(csvfile.read(2048)):
@@ -155,9 +118,9 @@ if __name__ == "__main__":
     # python conversion_script.py
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '--table_path', type=str, default=os.path.join('.', 'roster.csv'),
+        '--table_path', type=str, default=os.path.join('.', 'roster.tsv'),
         help="Path to the table with all the students. "
-             "Should be pulled from the roster website: "
+             "Should be pulled from the roster website to a tab-separated format: "
              "https://docs.google.com/spreadsheets/d/1W9D5NFxOXuzpao7aB6BXTnj5uhyPAJXBj9oLkF7IAnc/edit#gid=0"
     )
     args = parser.parse_args()
