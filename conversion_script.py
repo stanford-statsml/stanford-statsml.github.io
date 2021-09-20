@@ -1,8 +1,11 @@
 import argparse
 import csv
+from datetime import date
 import os
 
 from misc.common import advisor_dict, department_dict, core_faculty
+
+CURRENT_YEAR = date.today().year
 
 
 def RecordToLineTuple(record):  # [name, webpage, year, advisors, departments]
@@ -80,13 +83,17 @@ def main(table_path):
             webpage = elements[1].strip()
             status = elements[2].strip()
             year = elements[3].strip()
-            advisors = [a.strip() for a in elements[4].split(',')]
-            sponsors = [a.strip() for a in elements[5].split(',')]
-            departments = [a.strip() for a in elements[6].split(',')]
+            exit_year = elements[4].strip()
+            advisors = [a.strip() for a in elements[5].split(',')]
+            departments = [a.strip() for a in elements[7].split(',')]
 
             record = [name, webpage, year, advisors, departments]
+            # If one of the advisors is a core faculty.
             if len([cf for cf in core_faculty if cf in advisors]) > 0:
-                if "alum" in status:
+                if "alum" in status or (
+                    # exit_year can't be empty, can't be ???, and must be <= this year.
+                    len(exit_year) > 0 and exit_year != '???' and int(exit_year) <= CURRENT_YEAR
+                ):
                     alums.append(record)
                 elif "phd" in status:
                     phds.append(record)

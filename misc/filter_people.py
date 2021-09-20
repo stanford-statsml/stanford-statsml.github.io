@@ -89,12 +89,12 @@ def table2dicts(table_path):
             webpage = elements[1].strip()
             status = elements[2].strip()
             year = elements[3].strip()
-            advisors = [a.strip() for a in elements[4].split(',')]
-            sponsors = [a.strip() for a in elements[5].split(',')]
-            departments = [a.strip() for a in elements[6].split(',')]
-            email = elements[7].strip()
-            in_google_group = elements[8].strip()
-            current = elements[9].strip()
+            advisors = [a.strip() for a in elements[5].split(',')]
+            sponsors = [a.strip() for a in elements[6].split(',')]
+            departments = [a.strip() for a in elements[7].split(',')]
+            email = elements[8].strip()
+            in_google_group = elements[9].strip()
+            current = elements[10].strip()
 
             record.append(
                 dict(
