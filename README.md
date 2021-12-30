@@ -1,2 +1,3 @@
 # stanford-statsml.github.io
-Stanford Statsml Webpage
+
+Stanford ML Webpage
