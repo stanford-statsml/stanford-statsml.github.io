@@ -1,4 +1,4 @@
-Name	Webpage address	Status	Entering year	Exit date (empty=current)	Advisor(s) comma-separated	Sponsor (must be statsml faculty)	Department	Stanford Email (won't be on webpage, only for contact purposes)	In googlegroups(empty=not in)	Current (empty=alum)
+Name	Webpage address	Status	Entering year	Exit date (empty=current)	Advisor(s) comma-separated	Sponsor (must be an ML faculty)	Department	Stanford Email (won't be on webpage, only for contact purposes)	In googlegroups(empty=not in)	Current (empty=alum)
 Alan Heirich	http://heirich.org	postdoc/staff	2017	???	Alex Aiken		Computer Science	aheirich@stanford.edu		
 Sumith Kulal	https://cs.stanford.edu/~sumith/	rotation	2018		Alex Aiken		Computer Science	sumith@stanford.edu	x	x
 Theodor Misiakiewicz		phd	2020		Andrea Montanari	John Duchi	Statistics	misiakie@stanford.edu	x	x
