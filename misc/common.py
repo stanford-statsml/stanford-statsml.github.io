@@ -1,7 +1,6 @@
 """Constants that common to all processing files."""
 
 # @formatter:off
-# TODO(lxuechen): Update urls for Emily Fox and Carlos Guestrin once their stanford websites are finalized.
 advisor_dict = {
     "John Duchi": "<a href=\"http://stanford.edu/~jduchi/\" style=\"text-decoration:none\">John Duchi</a>",
     "Stefano Ermon": "<a href=\"https://cs.stanford.edu/~ermon/\" style=\"text-decoration:none\">Stefano Ermon</a>",
@@ -12,8 +11,9 @@ advisor_dict = {
     "Emma Brunskill": "<a href=\"http://www.cs.cmu.edu/~ebrun/\" style=\"text-decoration:none\">Emma Brunskill</a>",
     "Tengyu Ma": "<a href=\"https://ai.stanford.edu/~tengyuma/\" style=\"text-decoration:none\">Tengyu Ma</a>",
     "Chelsea Finn": "<a href=\"http://ai.stanford.edu/~cbfinn/\" style=\"text-decoration:none\">Chelsea Finn</a>",
-    "Emily Fox": "<a href=\"https://statistics2.sites.stanford.edu/people/emily-b-fox\" style=\"text-decoration:none\">Emily Fox</a>",
-    "Carlos Guestrin": "<a href=\"https://profiles.stanford.edu/carlos-guestrin\" style=\"text-decoration:none\">Carlos Guestrin</a>",
+    "Emily Fox": "<a href=\"https://emilybfox.su.domains/\" style=\"text-decoration:none\">Emily Fox</a>",
+    "Carlos Guestrin": "<a href=\"https://guestrin.su.domains/\" style=\"text-decoration:none\">Carlos Guestrin</a>",
+    "Sanmi Koyejo": "<a href=\"https://cs.stanford.edu/~sanmi/\" style=\"text-decoration:none\">Sanmi Koyejo</a>",
     # "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
     # "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
     # "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
@@ -46,6 +46,7 @@ core_faculty = [
     "Emily Fox",
     "Carlos Guestrin",
     "Tatsu Hashimoto",
+    "Sanmi Koyejo",
 ]
 
 all_faculty = core_faculty + [
