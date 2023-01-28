@@ -14,6 +14,7 @@ advisor_dict = {
     "Emily Fox": "<a href=\"https://emilybfox.su.domains/\" style=\"text-decoration:none\">Emily Fox</a>",
     "Carlos Guestrin": "<a href=\"https://guestrin.su.domains/\" style=\"text-decoration:none\">Carlos Guestrin</a>",
     "Sanmi Koyejo": "<a href=\"https://cs.stanford.edu/~sanmi/\" style=\"text-decoration:none\">Sanmi Koyejo</a>",
+    "Vasilis Syrgkanis": "<a href=\"https://vsyrgkanis.com/\" style=\"text-decoration:none\">Vasilis Syrgkanis</a>",
     # "Nick Bambos": "<a href=\"http://web.stanford.edu/~bambos/\" style=\"text-decoration:none\">Nick Bambos</a>",
     # "Serafim Batzoglou": "<a href=\"http://www.serafimb.org/\" style=\"text-decoration:none\">Serafim Batzoglou</a>",
     # "Peter Glynn": "<a href=\"http://web.stanford.edu/~glynn/\" style=\"text-decoration:none\">Peter Glynn</a>",
@@ -27,7 +28,7 @@ department_dict = {
     "Computer Science": "<a href=\"http://www-cs.stanford.edu\" style=\"text-decoration:none\">Computer Science</a>",
     "Statistics": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
     "Electrical Engineering": "<a href=\"https://ee.stanford.edu/\" style=\"text-decoration:none\">Electrical Engineering</a>",
-    # "mse": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
+    "Management Science & Engineering": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
     # "ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
 }
 
@@ -47,6 +48,7 @@ core_faculty = [
     "Carlos Guestrin",
     "Tatsu Hashimoto",
     "Sanmi Koyejo",
+    "Vasilis Syrgkanis",
 ]
 
 all_faculty = core_faculty + [
