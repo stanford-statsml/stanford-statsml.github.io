@@ -29,6 +29,7 @@ department_dict = {
     "Statistics": "<a href=\"https://statistics.stanford.edu\" style=\"text-decoration:none\">Statistics</a>",
     "Electrical Engineering": "<a href=\"https://ee.stanford.edu/\" style=\"text-decoration:none\">Electrical Engineering</a>",
     "Management Science & Engineering": "<a href=\"http://msande.stanford.edu/\" style=\"text-decoration:none\">Management Science & Engineering</a>",
+    "Economics": "<a href=\"https://economics.stanford.edu/\" style=\"text-decoration:none\">Economics</a>",
     # "ml": "<a href=\"https://www.ml.cmu.edu//\" style=\"text-decoration:none\">CMU Machine Learning</a>"
 }
 
